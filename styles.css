@@ -1,16 +1,22 @@
 html {
   font-size: 10px;
   font-family: "PT Serif;", serif;
+  background-color: lightgray;
 }
+
 
 p {
   width: 500px;
   border: 1px solid black;
+  padding: 10px;
 }
 
 h1 {
   font-size: 60px;
   text-align: center;
+  padding: 10px;
+  color: orangered;
+  text-shadow: 3px 3px 1px darkorange;
 }
 
 p,
@@ -19,3 +25,4 @@ li {
   line-height: 2;
   letter-spacing: 1px;
 }
+
