@@ -1,5 +1,9 @@
+html {
+  font-size: 10px;
+  font-family: "PT Serif;", serif;
+}
+
 p {
   width: 500px;
   border: 1px solid black;
 }
-
