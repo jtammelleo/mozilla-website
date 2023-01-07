@@ -1,10 +1,7 @@
-const myImage = document.querySelector("img");
+function sayOuch() {
+ 	alert('Ouch! Stop poking me!');
+ }
 
-myImage.onclick = () => {
-  const mySrc = myImage.getAttribute("src");
-  if (mySrc === "mozilla_logo.png") {
-    myImage.setAttribute("src", "mozilla_logo.png");
-  } else {
-    myImage.setAttribute("src", "mozilla_logo.png");
-  }
-};
+ var foxImage = document.querySelector('img');
+
+ foxImage.onclick = sayOuch;
